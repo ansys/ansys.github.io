@@ -1,0 +1,234 @@
+#top-div {
+    background: #000000;
+    width: 100%;
+    height: 110px;
+    padding: 5px 0 30px 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border-bottom: 2px solid #ffb71b; /* orangey-yellow */
+    position: fixed;
+    z-index: 2;
+}
+
+#nav-bar{
+    height: 8px;
+}
+
+.top-nav {
+    padding: 8px 20px 0 20px;
+    height: 20px;
+    float: right;
+    color: #A7A7A7;
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.top-nav:hover {
+    color: #FFFFFF; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-nav-main {
+   
+    padding: 8px 25px 0 25px;
+    height: 20px;
+    background-color: #FFB71B; /* special, brighter ocher */;
+    float: right;
+    color: #A7A7A7;
+    color: #000000;
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.top-nav-main:hover {
+    color: #000000; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#top-div img {
+    height: 80px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    display: block; 
+    margin: 20px auto 10px auto;
+}
+
+#top-div p {
+    color: #F7F7F7;
+    padding: 0 0 10px 0;
+    position: relative;
+    bottom: 15px;
+    margin: 0;
+    font-size: 25px;
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    text-align: center;
+    width: auto;
+}
+
+#tiles {
+    background: #000000 url("../img/ansys-tile-cell.png") top left repeat;
+    width: 100%;
+    height: 450px;
+    padding: 120px 0 0 0;
+    left: 0;
+    margin: 0;
+    position: static;
+    
+}
+
+#main-div {
+    background-color: #F7F7F7;
+    height: 1500px;
+}
+
+#repos {
+    padding: 15px 75px;
+    margin: 0 0 0 20px;
+}
+
+#opensource-nav-bar {
+    display: block;
+    margin-top: 0px;
+    padding: 80px 0 0 100px; 
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: square;
+    color: #c89211; /* ocher */
+}
+
+.opensource-nav {
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #c89211; /* ocher */
+}
+
+.opensource-nav-last {
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #A7A7A7;
+}
+
+.repo-family {
+    display: block;
+    margin-top: 50px;
+    padding: 0px 0 0 100px; 
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    color: #F7F7F7;
+}
+.repo-family-tagline {
+    display: block;
+    padding: 15px 0 0 100px; 
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #F7F7F7;
+}
+
+.repo-family-img {
+    position: absolute;
+    left: 750px;
+    top: 160px;
+}
+
+.repo-family-text {
+    display: block;
+    width: 500px;
+    margin-top: 10px;
+    padding: 20px 0 0 100px;
+    line-height: 1.8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #A7A7A7;
+}
+
+.repo-family-browse-invite {
+    display: block;
+    width: 500px;
+    margin-top: 10px;
+    padding: 40px 0 0 100px;
+    line-height: 1.8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #A7A7A7;
+    color: #c89211; /* ocher */
+}
+
+.repo_slash {
+    padding: 25px 5px 0 100px; 
+    float: left;
+    height: 30px;
+}
+.repo_category {
+    display: block;
+    padding: 25px 0 0 100px; 
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+.grid {
+    background: #FFFFFF; /* charcoal */
+    width: 400px;
+    height: 360px;
+    padding: 0px;
+    float: left;
+    margin: 25px 20px 25px 0px;
+    border-radius: 10px;
+}
+
+.grid a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0px 10px 0 10px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+}
+
+.repo-link {
+    padding: 8px 0 0 24px;
+    text-align: left;
+}
+
+.tech_tagline {
+    text-decoration: none;
+    padding: 0px 0 0px 24px;
+    color: #d9d8d6; /* light-grey */
+    color: #898a8d; /* steel */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.grid a:hover {
+    color: #c89211; /* ocher */
+    text-decoration: underline;
+}
+
+.grid img {
+    margin: 0px auto 10px auto;
+    display: block;
+    background: #A7A7A7;
+}
+
+
+.container {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    position: static;
+    color: #000000;
+}
+
