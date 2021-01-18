@@ -72,7 +72,6 @@
 
 #tiles {
     background: #000000 url("../img/ansys-tile-cell.png") top left repeat;
-    width: 100%;
     height: 450px;
     padding: 120px 0 0 0;
     left: 0;
@@ -224,7 +223,6 @@
 
 
 .container {
-    width: 100%;
     height: 100px;
     margin: 10px 0;
     padding: 10px;
